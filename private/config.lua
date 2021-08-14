@@ -13,7 +13,7 @@
 --指定要启用的模块
 hspoon_list = {
     "AClock",
-    "ClipShow",
+    -- "ClipShow",
     "CountDown",
     "KSheet",
     "WinWin",
@@ -35,20 +35,20 @@ hspoon_list = {
 hsapp_list = {
     {key = 'a', name = 'Alacritty'},
     {key = 'c', id = 'com.google.Chrome'},
-    {key = 'e', name = '印象笔记'},
+    -- {key = 'e', name = '印象笔记'},
     {key = 'f', name = 'Finder'},
-    {key = 'i', name = 'kitty'},
-    {key = 'j', name = 'Typora'},
-    {key = 'o', name = 'Obsidian'},
+    -- {key = 'i', name = 'kitty'},
+    -- {key = 'j', name = 'Typora'},
+    -- {key = 'o', name = 'Obsidian'},
     {key = 'k', name = 'Keynote'},
-    {key = 's', name = 'Sublime Text'},
-    {key = 'p', name = 'Podcasts'},
-    {key = 't', name = 'Terminal'},
+    -- {key = 's', name = 'Sublime Text'},
+    -- {key = 'p', name = 'Podcasts'},
+    {key = 't', name = 'iTerm.app'},
     {key = 'v', id = 'com.apple.ActivityMonitor'},
-    {key = 'b', id = 'vsCode.app'},
+    {key = 'b', id = 'Visual Studio Code.app'},
     {key = 'm', name = 'Mweb'},
     {key = 'w', name = 'WeChat'},
-    {key = 'x', name = 'Thunder'},
+    -- {key = 'x', name = 'Thunder'},
     {key = 'y', id = 'com.apple.systempreferences'},
 }
 
@@ -63,7 +63,7 @@ hswhints_keys = {"alt", "tab"}
 hsappM_keys = {"alt", "A"}
 
 -- 系统剪切板快捷键绑定
-hsclipsM_keys = {"alt", "C"}
+-- hsclipsM_keys = {"alt", "C"}
 
 
 -- 在默认浏览器中打开 Hammerspoon 和 Spoons API 手册
@@ -103,7 +103,7 @@ hsearch_keys = {"alt", "G"}
 hsupervisor_keys = {{"cmd", "shift", "ctrl"}, "Q"}
 
 -- 重新加载配置文件
-hsreload_keys = {{"cmd", "shift", "ctrl"}, "R"}
+hsreload_keys = {{"cmd", "shift", "ctååçrl"}, "R"}
 
 -- 显示各种模式绑定快捷键
 hshelp_keys = {{"alt", "shift"}, "/"}

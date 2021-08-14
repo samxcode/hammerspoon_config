@@ -312,4 +312,18 @@ function obj:centerCursor()
     end
 end
 
+--- WinWin:nextScreenCursor()
+--- Method
+--- Center the cursor on the focused window.
+---
+
+function obj:nextScreenCursor()
+    
+    local screen = hs.mouse.getCurrentScreen()
+    local nextScreen = screen:next()
+    local rect = nextScreen:fullFrame()
+    local center = hs.geometry.rectMidPoint(rect)
+    hs.mouse.setAbsolutePosition(center)
+end
+
 return obj
